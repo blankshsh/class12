@@ -1,0 +1,248 @@
+html,
+body {
+    height: 100%;
+    _zoom: 1;
+    *zoom: 1;
+}
+
+body {
+    font: 12px arial;
+    margin: 0;
+    padding: 0;
+    min-height: 944px;
+}
+
+.wrapper1 {
+    position: relative;
+    min-height: 600px;
+    min-width: 810px;
+    height: 100%;
+}
+
+.header {
+    overflow: hidden;
+}
+
+.header .nav {
+    float: right;
+    margin: 19px 0 5px 0;
+    padding: 0 96px 0 0;
+}
+
+.header .nav a.mnav {
+    margin-left: 20px;
+    color: #333;
+    float: left;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 13px;
+    text-decoration: underline;
+    /*    隐藏链接下划线*/
+}
+
+.header a.mnav:hover {
+    /*设置鼠标放上字体的颜色*/
+    color: #00C;
+}
+
+.header .nav .more {
+    position: absolute;
+    right: 10px;
+    width: 60px;
+    height: 23px;
+    float: left;
+    color: white;
+    background: #38f;
+    line-height: 24px;
+    /*行高*/
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    /*隐藏多余样式*/
+    border-bottom: 1px solid #38f;
+    margin-left: 19px;
+    margin-right: 2px;
+    text-decoration: none;
+    /*取消下划线*/
+}
+
+.more:hover {
+    color: #FFFFFF;
+}
+
+
+/*设置头部字体颜色*/
+
+.content {
+    width: 100%;
+    position: relative;
+    top: 5%;
+    text-align: center;
+}
+
+.content .search-form {
+    /*浮动*/
+    position: relative;
+    height: 191px;
+}
+
+
+/*设置div大小定位*/
+
+.content .input {
+    width: 539px;
+    height: 28px;
+    border: 1px solid #DDD;
+    padding: 3px 0 3px 7px;
+    border-right-width: 0;
+    vertical-align: middle;
+}
+
+.content .input:hover {
+    /*输入框鼠标悬浮变色*/
+    border-color: #999 transparent #B3B3B3 #999;
+}
+
+.content .input:focus {
+    /*输入框聚焦变色*/
+    border-color: #4791FF transparent #4791FF #4791FF;
+}
+
+.content .btn {
+    width: 100px;
+    height: 36px;
+    background: #3385FF;
+    color: white;
+    font-size: 15px;
+    /*文字大小*/
+    letter-spacing: 1px;
+    /*文字间隙*/
+    overflow: hidden;
+    /*隐藏多余*/
+    cursor: pointer;
+    /*光标变手*/
+    border: 1px solid #2D78F4;
+    vertical-align: middle;
+    margin-left: -5px;
+}
+
+.content .btn:hover {
+    /* 百度一下 鼠标悬浮变色*/
+    background-color: #317EF3;
+}
+
+.footer a {
+    color: #9a9a9a;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 44px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.footer p a {
+    color: #666;
+}
+
+.footer p a:hover {
+    color: #666;
+}
+
+#somemore {
+    display: none;
+    opacity: 1;
+    width: 85px;
+    min-height: 100px;
+    border-left: 1px solid #e7e7e7;
+    position: absolute;
+    background-color: #f9f9f9;
+    overflow: hidden;
+    z-index: 2;
+    right: 0;
+    top: 0;
+    height: 100%;
+    margin-right: 0;
+}
+
+.bdbriimgtitle {
+    color: #333;
+    text-align: center;
+    width: 66px;
+    height: 43px;
+    line-height: 43px;
+    padding-top: 9px;
+    margin: 0 auto;
+    border-bottom: #f0f0f0 1px solid;
+    font-size: 13px;
+    cursor: default;
+}
+
+.bdbriwrapper {}
+
+.mya {
+    display: block;
+    text-align: center;
+    width: 66px;
+    height: 76px;
+    margin: 0 auto;
+    border-bottom: #f0f0f0 1px solid;
+    color: #666;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.mya:hover {
+    text-decoration: underline;
+}
+
+.bdbriimgitem_3,
+.bdbriimgitem_4,
+.bdbriimgitem_2,
+.bdbriimgitem_5,
+.bdbriimgitem_6,
+.bdbriimgitem_7 {
+    width: 36px;
+    height: 36px;
+    display: block;
+    margin: 10px auto 5px;
+    background: url(https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/home/img/logos/bdbri_icons_2e35e84b.png) no-repeat;
+    cursor: pointer;
+}
+
+.bdbriimgitem_3 {
+    width: 40px;
+    background-position: -72px 0;
+}
+
+.bdbriimgitem_4 {
+    background-position: -112px 0;
+}
+
+.bdbriimgitem_2 {
+    background-position: -36px 0;
+}
+
+.bdbriimgitem_5 {
+    background-position: -148px 0;
+}
+
+.bdbriimgitem_6 {
+    background-position: -184px 0;
+}
+
+.bdbriimgitem_7 {
+    background-position: -220px 0
+}
+
+.bdbrievenmore {
+    margin-top: 15px;
+    height: 30px;
+    width: 85px;
+    overflow: hidden;
+}
+
+
